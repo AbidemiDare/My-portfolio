@@ -14,7 +14,7 @@ const navLinks = [
 ];
 
 // TODO: point this at the actual resume file (e.g. "/resume.pdf")
-const RESUME_HREF = "";
+const RESUME_HREF = "/Adewakun_Resume.pdf";
 
 const focusRing =
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/60 focus-visible:ring-offset-2 dark:focus-visible:ring-white/60 dark:focus-visible:ring-offset-neutral-950";

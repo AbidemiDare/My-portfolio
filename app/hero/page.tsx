@@ -21,7 +21,7 @@ const socialLinks = [
 const stack = ["React", "Next.js", "TypeScript"];
 
 // TODO: point these at the real files/links
-const CV_HREF = "";
+const CV_HREF = "/Adewakun.CV.pdf";
 
 const container: Variants = {
     hidden: {},

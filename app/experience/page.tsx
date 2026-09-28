@@ -9,27 +9,34 @@ type ExperienceEntry = {
     bullets: string[];
 };
 
-// TODO: replace with your real dates, organization names, and accomplishments.
-// Left as placeholders — I only know these were internship roles (Frontend
-// Developer and IT Intern), not the specific companies, dates, or what you built.
+// Entries mirror the CV, most recent first.
 const experience: ExperienceEntry[] = [
     {
-        date: "20XX",
-        position: "Frontend Developer (Intern)",
-        organization: "[Organization name]",
+        date: "April 2025 – September 2025",
+        position: "IT Intern",
+        organization: "Advertising Regulatory Council of Nigeria (ARCON)",
         bullets: [
-            "[What you built or shipped in this role]",
-            "[A concrete contribution or improvement you made]",
-            "[Tech stack or process you worked with]",
+            "Supported IT operations, systems maintenance, and internal digital tools within a government regulatory body.",
+            "Assisted with software deployment, troubleshooting, and documentation of IT workflows.",
         ],
     },
     {
-        date: "20XX",
-        position: "IT Intern",
-        organization: "[Organization name]",
+        date: "November 2024 – February 2025",
+        position: "Frontend Developer Intern",
+        organization: "Cakkie Foods Ltd",
         bullets: [
-            "[What you built or supported in this role]",
-            "[A concrete contribution or improvement you made]",
+            "Developed and maintained responsive UI components for the company's web platform.",
+            "Collaborated with the design team to implement Figma prototypes using React and Tailwind CSS.",
+            "Participated in code reviews and applied best practices for performance and accessibility.",
+        ],
+    },
+    {
+        date: "August 2023 – March 2024",
+        position: "Computer Instructor",
+        organization: "Beautiful Beginners Nursery and Primary School",
+        bullets: [
+            "Taught foundational computer science concepts and practical web skills to students.",
+            "Built a responsive school website using HTML, CSS and JavaScript as a hands-on learning project for students.",
         ],
     },
 ];
