@@ -32,8 +32,9 @@ const projects: Project[] = [
             "Recommendation scoring",
             "Responsive dashboard",
         ],
+        image: "/Sprs.png",
         caseStudyHref: "/projects/student-recommendation-system",
-        githubHref: "", // TODO: add repo link
+        githubHref: "https://github.com/AbidemiDare/Recommendation-System", // TODO: add repo link
         featured: true,
     },
     {
@@ -42,8 +43,9 @@ const projects: Project[] = [
         description:
             "A modern real estate platform designed to help users discover properties, explore listings and connect with agents.",
         tech: ["Next.js", "TypeScript", "Tailwind CSS", "Web3Forms"],
+        image: "/Rapha.png",
         caseStudyHref: "/projects/rapha-homes",
-        githubHref: "", // TODO: add repo link
+        githubHref: "https://github.com/AbidemiDare/Real-Estate", // TODO: add repo link
     },
 ];
 
