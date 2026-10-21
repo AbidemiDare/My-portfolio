@@ -4,6 +4,7 @@ import type { StaticImageData } from "next/image";
 import Image from "next/image";
 import { User } from "lucide-react";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
+import portrait from "@/public/user.jpeg";
 
 // NOTE: the two numeric stats below are placeholders — swap in your real
 // numbers before this goes live. The two role stats are safe as-is.
@@ -28,7 +29,7 @@ type AboutProps = {
     photoSrc?: string | StaticImageData;
 };
 
-const About = ({ photoSrc }: AboutProps) => {
+const About = ({ photoSrc = portrait }: AboutProps) => {
     const shouldReduceMotion = useReducedMotion();
 
     return (
@@ -58,10 +59,11 @@ const About = ({ photoSrc }: AboutProps) => {
                             {photoSrc ? (
                                 <Image
                                     src={photoSrc}
-                                    alt="Portrait of Damilare"
-                                    width={320}
-                                    height={400}
-                                    className="h-full w-full object-cover"
+                                   alt="Portrait of Damilare"
+            fill
+            sizes="(min-width: 768px) 320px, 70vw"
+            placeholder="blur"
+            className="object-cover object-top"
                                 />
                             ) : (
                                 <div className="flex h-full w-full items-center justify-center bg-linear-to-br from-neutral-900 to-neutral-950">
