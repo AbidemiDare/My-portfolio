@@ -93,12 +93,12 @@ const Contact = () => {
                                 </span>
                                 <div>
                                     <p className="text-xs text-neutral-500">Email</p>
-                                    <a
+                                    <Link
                                         href={`mailto:${EMAIL}`}
                                         className={`rounded-sm text-sm text-neutral-200 transition-colors hover:text-white focus-visible:ring-neutral-400 ${focusRing}`}
                                     >
-                                        oluwadamilareadewakun@gmail.com
-                                    </a>
+                                        EMAIL
+                                    </Link>
                                 </div>
                             </div>
                             <div className="flex items-center gap-3 text-left">

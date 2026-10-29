@@ -13,9 +13,9 @@ const XIcon = (props: SVGProps<SVGSVGElement>) => (
 
 // TODO: point these at your real profile URLs (kept consistent with the Hero section)
 const socialLinks = [
-    { name: "GitHub", href: "https://github.com/", icon: FaGithub },
-    { name: "LinkedIn", href: "https://linkedin.com/in/", icon: FaLinkedin },
-    { name: "X", href: "https://x.com/", icon: XIcon },
+    { name: "GitHub", href: "https://github.com/AbidemiDare", icon: FaGithub },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/adewakun-oluwadamilare-641b22281/", icon: FaLinkedin },
+    { name: "X", href: "https://x.com/AbidemiDarey", icon: XIcon },
 ];
 
 const Footer = () => {
