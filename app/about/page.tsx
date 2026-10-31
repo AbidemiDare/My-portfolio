@@ -10,9 +10,9 @@ import portrait from "@/public/user.jpeg";
 // numbers before this goes live. The two role stats are safe as-is.
 const stats = [
     { value: "2+", label: "Years Experience" },
-    { value: "5+", label: "Projects Built" },
-    { value: "React", label: "Developer" },
+    { value: "3+", label: "Projects Built" },
     { value: "Next.js", label: "Developer" },
+    { value: "AI", label: "Enthusiast" },
 ];
 
 const container: Variants = {
